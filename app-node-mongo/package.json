@@ -1,0 +1,21 @@
+{
+  "name": "docker-node-mongo",
+  "version": "1.0.0",
+  "description": "Docker project with node and mongo",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "marko": "^4.4.21",
+    "mongoose": "^4.11.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "Emilio Scodeler",
+  "license": "MIT"
+}
