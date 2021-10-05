@@ -11,7 +11,7 @@ footer {
     left: 0 ; right: 0; bottom: 0; 
     height:50px;
     padding-top: 10px;
-    background-color: black;
+    background-color: navy;
 }
 
 .hero-feature {
@@ -19,4 +19,10 @@ footer {
     display: inline-block;
     vertical-align: top;
     float: none;
+}
+
+.navbar-inverse {
+    border: none;
+    border-radius: 0;
+    background: navy;
 }
