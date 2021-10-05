@@ -1,6 +1,6 @@
 {   
     "databaseConfig":{
         "host": "localhost",
-        "database": "my-books"
+        "database": "books-store"
     }
 }

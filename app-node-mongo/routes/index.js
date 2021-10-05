@@ -19,42 +19,42 @@ router.get('/', (req, res) => {
 router.get('/seed', (req,res) => {
     let livros = [
         new Book({
-            name: "Arduino prático", 
+            name: "Javascript: The Definitive Guide", 
             price: "$39,90", 
-            description: "10 projetos para executar, aprender, modificar e dominar o mundo", 
-            cover: "arduino.jpg"
+            description: "JavaScript is the programming language of the web and is used by more software developers today than any other programming language.", 
+            cover: "javascript-definitive.jpg"
         }),
         new Book(
         {
-            name: "MongoDB", 
+            name: "Eloquent Javascript: A Modern Introduction to Programming", 
             price: "$39,90", 
-            description: "Construa novas aplicações com novas tecnologias",  
-            cover: "mongo.png"
+            description: "JavaScript lies at the heart of almost every modern web application.",  
+            cover: "javascript-eloquent.jpg"
         }),
          new Book({
-            name: "Mean", 
+            name: "Clean Code: A Handbook of Agile Software Craftsmanship", 
             price: "$39,90", 
-            description: "Full stack JavaScript com MongoDB, Express, Angular e Node" ,
-            cover: "mean.png"
+            description: "If code isn’t clean, it can bring a development organization to its knees." ,
+            cover: "clean-code.jpg"
         }),
         new Book({
-            name: "Node.js", 
+            name: "Design Patterns: Elements of Reusable Object-Oriented Software", 
             price: "$39,90", 
-            description: "Os primeiros passos com Node.js",  
-            cover: "livro-node.jpg"
+            description: "Capturing a wealth of experience about the design of object-oriented software",  
+            cover: "design-patterns.jpg"
         }),
         new Book({
-            name: "TDD", 
+            name: "Test Driven Development: By Example", 
             price: "$39,90", 
-            description: "Teste e Design no Mundo Real",  
-            cover: "tdd.png"
+            description: "Quite simply, test-driven development is meant to eliminate fear in application development.",  
+            cover: "tdd.jpg"
         }),
         new Book(
         {
-            name: "Métricas Ágeis", 
+            name: "The Pragmatic Programmer: Your journey to mastery", 
             price: "$39,90", 
-            description: "Obtenha melhores resultados em sua equipe",  
-            cover: "metricas-ageis.jpg"
+            description: "Illustrates the best approaches and major pitfalls of many different aspects of software development",  
+            cover: "pragmatic-programmer.jpg"
         })
     ]
                       

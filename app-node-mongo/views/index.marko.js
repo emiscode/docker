@@ -16,7 +16,7 @@ var marko_template = module.exports = require("marko/src/html").t(__filename),
 function render(input, out, __component, component, state) {
   var data = input;
 
-  out.w("<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta name=viewport content=\"width=device-width, initial-scale=1.0\"><title>Books</title><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css> <link href=css/style.css rel=stylesheet type=text/css media=all></head><body><nav class=\"navbar navbar-inverse\"><div class=navbar-header><a class=navbar-brand href=/ >My Books</a><a class=navbar-brand href=/seed>Seed</a></div></nav><div class=\"container page-wrap\"><div class=row> ");
+  out.w("<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta name=viewport content=\"width=device-width, initial-scale=1.0\"><title>Books Store</title><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css> <link href=css/style.css rel=stylesheet type=text/css media=all></head><body><nav class=\"navbar navbar-inverse\"><div class=navbar-header><a class=navbar-brand href=/ >Books</a><a class=navbar-brand href=/seed>Seed</a></div></nav><div class=\"container page-wrap\"><div class=row> ");
 
   var $for$0 = 0;
 
