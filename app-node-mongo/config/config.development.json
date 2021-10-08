@@ -1,6 +1,6 @@
 {   
     "databaseConfig":{
-        "host": "localhost",
+        "host": "my-mongo",
         "database": "books-store"
     }
 }
